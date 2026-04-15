@@ -5,16 +5,19 @@ date: {{DATE}}
 tags: [{{TAGS}}]
 ---
 
-# {{ZK_ID}}
+# {{TITLE_JA}}
 
-## 元のメモ
-
+## 元メモ
 {{RAW_TEXT}}
 
-## Claude による整理
+## これは何のメモか
+{{INTERPRETATION}}
 
-{{SUMMARY}}
+## なぜ残す価値があるか
+{{SIGNIFICANCE}}
 
-## 参照
+## 未解決の問い
+{{QUESTIONS}}
 
+## 関連
 {{REFERENCES}}

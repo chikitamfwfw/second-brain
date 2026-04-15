@@ -8,20 +8,29 @@ tags: [{{TAGS}}]
 
 # {{TITLE}}
 
-**URL**: {{URL}}
+## 出典
+- 元リンク：{{URL}}
 
-## 要約
-
+## 概要
 {{SUMMARY}}
 
-## キーポイント
-
+## 要点
 {{KEY_POINTS}}
 
-## 文字起こし抜粋
+## 詳細メモ
+{{DETAILS}}
 
+## 示唆
+{{INSIGHTS}}
+
+## 自分ごと化
+{{PERSONAL_APPLICATION}}
+
+## 未解決の問い
+{{OPEN_QUESTIONS}}
+
+## 文字起こし抜粋
 {{TRANSCRIPT_EXCERPT}}
 
 ## 参照・関連ノート
-
 {{REFERENCES}}
