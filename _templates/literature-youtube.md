@@ -21,12 +21,11 @@ tags: []
 
 {{topics}}
 
-## 書き起こし抜粋
+## 個人的洞察
 
-{{excerpt}}
+{{insights}}
 
 ## ソース
 
 - URL: {{url}}
-- 字幕言語: {{language}}
-- 取得方法: {{method}}
+- 言語: {{language}}
