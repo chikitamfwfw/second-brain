@@ -3,7 +3,9 @@ id: {{note_id}}
 date: {{date}}
 type: fleeting
 source: discord/memo
+domain: []
 tags: []
+related_notes: []
 ---
 
 # {{title}}
@@ -16,10 +18,14 @@ tags: []
 
 {{key_points}}
 
+## 企画・制作への示唆
+
+{{insights}}
+
 ## アクションアイテム
 
 {{action_items}}
 
-## 原文
+## 会話ログ
 
-> {{raw_input}}
+{{conversation_log}}
