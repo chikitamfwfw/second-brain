@@ -3,7 +3,7 @@ id: {{note_id}}
 date: {{date}}
 type: literature/article
 source: {{url}}
-author: {{author}}
+author: {{author | default: "不明"}}
 tags: []
 ---
 
