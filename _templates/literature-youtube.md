@@ -3,7 +3,8 @@ id: {{note_id}}
 date: {{date}}
 type: literature/youtube
 source: {{url}}
-channel: {{channel}}
+channel: {{channel | default: "不明"}}
+channel_url: {{channel_url | default: ""}}
 tags: []
 ---
 
