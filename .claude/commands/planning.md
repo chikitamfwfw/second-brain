@@ -15,3 +15,5 @@ argument-hint: <プランニングするテーマ>
    背中を押しつつ批判的視点も提供する。
 4. ユーザーが保存を望んだら、`_templates/planning.md` に沿って整形し、
    `brain note planning --file <path>` で保存する。
+5. 保存後、会話で出たアクションアイテム/次のステップをタスク化するか提案する。承認されたら
+   `brain task add "<タイトル>" --project "<テーマ>" --note <保存したノートID>` で作成する。
