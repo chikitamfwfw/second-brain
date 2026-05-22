@@ -1,6 +1,7 @@
 # Permanent Note 抽出
 
-FleetingノートからAtomic Permanent Noteを抽出します。
+ノート（Fleeting / Literature / Research / Planning）から Atomic Permanent Note を
+抽出します。十分な中身があれば抽出元の種類は問いません。
 
 ## Atomic Noteの原則
 1. 1つのノート = 1つのアイデア
