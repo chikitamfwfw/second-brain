@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brain sync *)",
+      "Bash(python3 ../digital-brain/cli.py sync)",
+      "Bash(python3 ../discord-second-brain/cli.py sync)",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv\\\\Scripts\\\\python.exe cli.py sync)"
+    ]
+  }
+}
