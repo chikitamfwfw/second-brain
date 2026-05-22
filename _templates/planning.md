@@ -8,6 +8,7 @@ target_domain: []
 status: draft
 tags: []
 related_notes: []
+tasks: []
 ---
 
 # {{topic}}
