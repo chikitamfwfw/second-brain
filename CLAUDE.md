@@ -7,12 +7,16 @@
 ## エンジン
 
 処理（保存・Git 同期・スクレイピング・YouTube 書き起こし・意味検索）は、隣接する
-`digital-brain`（旧 `discord-second-brain`）リポジトリの常駐エンジンが担います。
-CLI 呼び出しは次のいずれか:
+`digital-brain` リポジトリの常駐エンジンが担います。`digital-brain` と本ボルト
+`second-brain` は同じ親フォルダに隣り合って配置されている前提です。
 
-- `brain <subcommand>`（PATH に通している場合）
-- `python3 ../digital-brain/cli.py <subcommand>`（未設定の場合のフォールバック。
-  リポジトリ名が `discord-second-brain` のままなら `../discord-second-brain/cli.py`）
+エンジンCLI（本書では **`brain`** と表記）の実体は `digital-brain/cli.py` で、
+**venv の Python** で実行します（依存パッケージが入っているため）:
+
+- Windows: `../digital-brain/.venv/Scripts/python.exe ../digital-brain/cli.py <subcommand>`
+- macOS/Linux: `../digital-brain/.venv/bin/python ../digital-brain/cli.py <subcommand>`
+
+例: 本書で `brain sync` と書かれていれば、上記の形で `cli.py sync` を実行する。
 
 CLI は初回呼び出し時に常駐デーモンを自動起動します。デーモンが埋め込みモデルを
 ウォーム保持するため、2 回目以降の操作は高速です。
