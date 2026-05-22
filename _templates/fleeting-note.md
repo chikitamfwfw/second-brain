@@ -6,6 +6,7 @@ source: discord/memo
 domain: []
 tags: []
 related_notes: []
+tasks: []
 ---
 
 # {{title}}

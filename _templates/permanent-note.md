@@ -7,6 +7,7 @@ domain: []
 tags: []
 related_notes: []
 source_notes: []
+tasks: []
 ---
 
 # {{title_statement}}
